@@ -2,6 +2,7 @@ import React from 'react';
 import { Tab, Tabs } from '@mui/material';
 import CustomTable from './CustomTable';
 import SecondTab from './SecondTab';
+import "./body.css"
 
 
 const CustomTabs = props => {
