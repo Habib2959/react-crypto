@@ -1,11 +1,11 @@
 import { 
-    Stack, Card, FormControl, OutlinedInput, InputAdornment, IconButton 
+    Stack, Card, FormControl, OutlinedInput, InputAdornment, 
 } from "@mui/material";
 import AttachMoneyRoundedIcon from '@mui/icons-material/AttachMoneyRounded';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import React from "react";
 
-const Referral = props => {
+const Referral = () => {
     const inputRef = React.useRef(null)
     const copyLink =  (e) => {
              navigator.clipboard.writeText(inputRef.current.firstElementChild.value);

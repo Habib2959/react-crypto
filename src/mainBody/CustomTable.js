@@ -1,5 +1,5 @@
 import OpenInNew from "@mui/icons-material/OpenInNew";
-import { Stack, Table, TableBody, TableCell, TableHead, TableRow, Chip, Avatar } from "@mui/material";
+import { Stack, Table, TableBody, TableCell, TableRow, Chip, } from "@mui/material";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import "./body.css"
@@ -32,14 +32,14 @@ export default function CustomTable() {
                                 <TableRow key={Math.random()} sx={{ backgroundColor: "rgba(25, 27, 32, .9)", color: "#fff" }}>
                                     <TableCell>
                                         <Stack direction="row" >
-                                            <img src={items.img} />
+                                            <img src={items.img} alt="bitcoin"/>
                                             <Stack sx={{ ml: 1 }}>
                                                 <p className="text-white">{items.asset}</p>
                                                 <Stack direction="row" >
                                                     <span className="text-grey" style={{ marginRight: "8px" }}>{items.type}</span>
                                                     <Chip
                                                         style={{ backgroundColor: "rgba(53, 57, 69, 1)", color: "#fff", borderRadius: "7px", height: "auto", fontSize: "10px", alignItems: "center", paddingBottom: "1px" }}
-                                                        avatar={<img src={items.chain.img} style={{ width: "15px", height: "15px" }} />}
+                                                        avatar={<img src={items.chain.img} alt="chain" style={{ width: "15px", height: "15px" }} />}
                                                         label={items.chain.name}
                                                         variant="filled" />
                                                 </Stack>

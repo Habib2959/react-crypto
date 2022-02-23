@@ -26,7 +26,7 @@ const RightSideBar = () => {
                         <MenuItem value="">
                             <Chip
                                 sx={{ bgcolor: "transparent", color: "#fff" }}
-                                avatar={<img src={Logo} />}
+                                avatar={<img src={Logo} alt="logo"/>}
                                 label="Avalanche"
                                 variant="none" />
                         </MenuItem>
