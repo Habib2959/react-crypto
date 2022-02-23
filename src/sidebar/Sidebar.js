@@ -147,11 +147,11 @@ const SideBar = props => {
                         <Stack direction="row" spacing={1}>
                             <Chip
                                 style={{ backgroundColor: "rgba(53, 57, 69, 1)", color: "#fff", borderRadius: "7px", height: "32px" }}
-                                avatar={<Avatar>N</Avatar>}
+                                avatar={<Avatar sx={{bgcolor: "rgba(55, 114, 255, 1)", color: "#fff !important"}}>N</Avatar>}
                                 label="$0.90"
                                 variant="filled" />
                             <Chip
-                                style={{ borderRadius: "7px" }}
+                                style={{ borderRadius: "7px", color:"rgba(55, 114, 255, 1)" }}
                                 label="BUY $XYZ"
                                 variant="filled"
                                 color="secondary"
