@@ -1,0 +1,36 @@
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+    padding-top: 0;
+    padding-bottom: 13px;
+    height: 20px;
+}
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon{
+    fill: #fff !important;
+}
+.custom-select{
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 10px !important;
+    border: 2px solid rgba(55, 114, 255, 1);
+}
+.custom-select-first{
+    background-color: rgba(53, 57, 69, 1);
+    border-radius: 10px !important;
+}
+.css-6hp17o-MuiList-root-MuiMenu-list{
+    background-color:rgba(53, 57, 69, 1) ;
+    color: #fff;
+}
+.right-bar-input{
+    background-color:rgba(36, 39, 49, 1) ;
+    border-radius: 10px;
+    margin: 15px 0px !important;
+}
+.right-bar-input input{
+    height: auto;
+    padding: 10px 5px;
+    border-radius: 10px;
+    color: #fff;
+}
+.right-bar-input input::placeholder{
+    color: rgba(128, 129, 145, 1);
+    font-size: 12px;
+}

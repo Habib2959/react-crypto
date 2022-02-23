@@ -1,0 +1,35 @@
+.MuiTableRow-root td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .MuiTableRow-root td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+.MuiTableCell-root{
+  border-bottom: 0px !important;
+}
+
+.text-white{
+  color: #fff !important;
+}
+
+.text-grey{
+  color: rgba(128, 129, 145, 1) !important;
+}
+
+a{
+  text-decoration: none;
+}
+.section-header{
+  border-bottom: 2px solid rgba(55, 114, 255, 1);
+  padding-bottom: 2px;
+}
+
+.bitcoin-img{
+  position: absolute;
+  right: 20px;
+  transform: translateY(-5px);
+}
