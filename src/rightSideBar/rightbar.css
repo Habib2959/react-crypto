@@ -4,7 +4,7 @@
     height: 20px;
 }
 .MuiSelect-select {
-    padding: 3px !important;
+    padding:4px 32px 4px 4px!important;
 }
 .css-hfutr2-MuiSvgIcon-root-MuiSelect-icon, .MuiSelect-icon{
     fill: #fff !important;
