@@ -33,3 +33,7 @@ a{
   right: 20px;
   transform: translateY(-5px);
 }
+.css-7vlqkg.Mui-selected {
+    color: rgb(25, 118, 210) !important;
+    background-color: transparent !important;
+}
