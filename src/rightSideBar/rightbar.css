@@ -3,7 +3,10 @@
     padding-bottom: 13px;
     height: 20px;
 }
-.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon{
+.MuiSelect-select {
+    padding: 3px !important;
+}
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon, .MuiSelect-icon{
     fill: #fff !important;
 }
 .custom-select{
@@ -15,7 +18,7 @@
     background-color: rgba(53, 57, 69, 1);
     border-radius: 10px !important;
 }
-.css-6hp17o-MuiList-root-MuiMenu-list{
+.css-6hp17o-MuiList-root-MuiMenu-list, .MuiMenu-list{
     background-color:rgba(53, 57, 69, 1) ;
     color: #fff;
 }

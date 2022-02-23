@@ -14,10 +14,9 @@ import {
 function App() {
   return (
     <>
-
       <Box sx={{ display: "flex", flexDirection: "column" }}>
         <Header />
-        <Box sx={{ display: "flex", bgcolor: "rgba(0, 0, 0, 1)", pt: 2 }}>
+        <Box sx={{ display: "flex", bgcolor: "rgba(0, 0, 0, 1)", pt: 2, flexWrap: "wrap" }}>
           <SideBar />
           <Routes>
               <Route path="/" element={ <Body />} />

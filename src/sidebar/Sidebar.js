@@ -12,7 +12,7 @@ import menu from "../assets/menus";
 import { NavLink} from "react-router-dom";
 
 const drawerWidth = 240;
-const SideBar = props => {
+const SideBar = () => {
     const [open, setOpen] = React.useState(false);
     const [selectedIndex, setSelectedIndex] = React.useState(0);
 
@@ -111,7 +111,7 @@ const SideBar = props => {
                 <div className="drawer-header">
                     <Box>
                         <span className="avatar">N</span>
-                        <h4 style={{display: "inline-block", marginLeft: "10px"}}>Name</h4>
+                        <h4 style={{display: "inline-block", marginLeft: "10px", color: "#fff"}}>Name</h4>
                     </Box>
                     <IconButton onClick={handleDrawerClose}>
                         <ArrowBackSharpIcon sx={{ color: "#fff" }} />

@@ -37,6 +37,12 @@ li{
     height: 90% !important;
 }
 
+.css-1l8j5k8{
+    background-color: black !important;
+    top: 5% !important;
+    height: 90% !important;
+}
+
 .css-154mecw-MuiSwitch-root .MuiSwitch-switchBase.Mui-checked{
     color:rgba(55, 114, 255, 1) !important ;
 }
@@ -44,7 +50,7 @@ li{
 .css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase{
     color:rgba(55, 114, 255, 1) !important ;
 }
-.css-cvhtoe-MuiButtonBase-root-MuiListItemButton-root.Mui-selected {
+.css-cvhtoe-MuiButtonBase-root-MuiListItemButton-root.Mui-selected, .Mui-selected {
     background-color: rgba(53, 57, 69, 1)  !important;
     color: #fff !important;
     margin: 0 10px ;
